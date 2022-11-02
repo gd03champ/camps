@@ -1,0 +1,28 @@
+
+.tbl {
+
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.tbl th {
+    text-align: center;
+    font-weight: bold;
+
+    border: 0px;
+
+
+
+    background: #507CD1;
+    color: #FFFFFF;
+}
+.tbl .on {
+    padding-left:10px;  
+
+    background: #D1DDF1;
+}
+.tbl > tbody >  tr {padding-left:10px;background: #FFFFFF;}
+.tbl > tbody > tr:nth-child(even){padding-left:10px;background: #D1DDF1;}
+.tbl .off {padding-left:10px;background-color: #FFFFFF;}
+.tbl .hover {background-color: #99f;}
+.tbl .click {background-color: #66f;font-weight: bold;}
